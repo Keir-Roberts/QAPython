@@ -15,4 +15,4 @@ class Student:
 
 
 Example = Student('Example', 17, '2E')
-print(Example.avgscore(15, 20, 25))
+print(f"{Example.name}, your average score is {Example.avgscore(15, 20, 25)}")
