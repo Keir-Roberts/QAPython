@@ -15,4 +15,5 @@ class Student:
 
 
 Example = Student('Example', 17, '2E')
-print(f"{Example.name}, your average score is {Example.avgscore(15, 20, 25)}")
+exavscore = Example.avgscore(15, 20, 35)
+print(f"{Example.name}, your average score is {round(exavscore, 2)}")
